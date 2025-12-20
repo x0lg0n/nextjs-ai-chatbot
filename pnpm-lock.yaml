@@ -144,8 +144,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       prosemirror-schema-basic:
-        specifier: ^1.2.3
-        version: 1.2.3
+        specifier: ^1.2.4
+        version: 1.2.4
       prosemirror-schema-list:
         specifier: ^1.4.1
         version: 1.4.1
@@ -3220,8 +3220,11 @@ packages:
   prosemirror-model@1.23.0:
     resolution: {integrity: sha512-Q/fgsgl/dlOAW9ILu4OOhYWQbc7TQd4BwKH/RwmUjyVf8682Be4zj3rOYdLnYEcGzyg8LL9Q5IWYKD8tdToreQ==}
 
-  prosemirror-schema-basic@1.2.3:
-    resolution: {integrity: sha512-h+H0OQwZVqMon1PNn0AG9cTfx513zgIG2DY00eJ00Yvgb3UD+GQ/VlWW5rcaxacpCGT1Yx8nuhwXk4+QbXUfJA==}
+  prosemirror-model@1.25.4:
+    resolution: {integrity: sha512-PIM7E43PBxKce8OQeezAs9j4TP+5yDpZVbuurd1h5phUxEKIu+G2a+EUZzIC5nS1mJktDJWzbqS23n1tsAf5QA==}
+
+  prosemirror-schema-basic@1.2.4:
+    resolution: {integrity: sha512-ELxP4TlX3yr2v5rM7Sb70SqStq5NvI15c0j9j/gjsrO5vaw+fnnpovCLEGIcpeGfifkuqJwl4fon6b+KdrODYQ==}
 
   prosemirror-schema-list@1.4.1:
     resolution: {integrity: sha512-jbDyaP/6AFfDfu70VzySsD75Om2t3sXTOdl5+31Wlxlg62td1haUpty/ybajSfJ1pkGadlOfwQq9kgW5IMo1Rg==}
@@ -6798,7 +6801,7 @@ snapshots:
 
   prosemirror-commands@1.6.2:
     dependencies:
-      prosemirror-model: 1.23.0
+      prosemirror-model: 1.25.4
       prosemirror-state: 1.4.3
       prosemirror-transform: 1.10.2
 
@@ -6823,7 +6826,7 @@ snapshots:
   prosemirror-gapcursor@1.3.2:
     dependencies:
       prosemirror-keymap: 1.2.2
-      prosemirror-model: 1.23.0
+      prosemirror-model: 1.25.4
       prosemirror-state: 1.4.3
       prosemirror-view: 1.35.0
 
@@ -6861,9 +6864,13 @@ snapshots:
     dependencies:
       orderedmap: 2.1.1
 
-  prosemirror-schema-basic@1.2.3:
+  prosemirror-model@1.25.4:
     dependencies:
-      prosemirror-model: 1.23.0
+      orderedmap: 2.1.1
+
+  prosemirror-schema-basic@1.2.4:
+    dependencies:
+      prosemirror-model: 1.25.4
 
   prosemirror-schema-list@1.4.1:
     dependencies:
@@ -6879,7 +6886,7 @@ snapshots:
 
   prosemirror-transform@1.10.2:
     dependencies:
-      prosemirror-model: 1.23.0
+      prosemirror-model: 1.25.4
 
   prosemirror-view@1.35.0:
     dependencies:
