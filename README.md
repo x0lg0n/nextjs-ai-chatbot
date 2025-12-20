@@ -11,7 +11,9 @@
   <a href="#features"><strong>Features</strong></a> ·
   <a href="#model-providers"><strong>Model Providers</strong></a> ·
   <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#running-locally"><strong>Running locally</strong></a>
+  <a href="#running-locally"><strong>Running locally</strong></a> ·
+  <a href="#blocks"><strong>Blocks</strong></a> ·
+  <a href="#contributing"><strong>Contributing</strong></a>
 </p>
 <br/>
 
@@ -32,6 +34,9 @@
   - [Vercel Blob](https://vercel.com/storage/blob) for efficient file storage
 - [NextAuth.js](https://github.com/nextauthjs/next-auth)
   - Simple and secure authentication
+- Blocks System
+  - Canvas-like interface for working with AI-generated content
+  - Support for text, code, image, and spreadsheet blocks
 
 ## Model Providers
 
@@ -59,3 +64,28 @@ pnpm dev
 ```
 
 Your app template should now be running on [localhost:3000](http://localhost:3000/).
+
+## Blocks
+
+The chatbot template includes a powerful "Blocks" system that provides a canvas-like interface for working with AI-generated content. The template ships with four built-in blocks:
+
+- **Text Block**: Work with text content like drafting essays and emails
+- **Code Block**: Write and execute code (Python)
+- **Image Block**: Edit, annotate, and process images
+- **Sheet Block**: Work with tabular data
+
+You can also create custom blocks to extend the functionality. See [our documentation](./docs/03-blocks.md) for more information on creating custom blocks.
+
+## Contributing
+
+Contributions are welcome! Please read our [contributing guidelines](./CONTRIBUTING.md) and [code of conduct](./CODE_OF_CONDUCT.md) before submitting a pull request.
+
+## Documentation
+
+- [Quick Start Guide](./docs/01-quick-start.md)
+- [Updating Models](./docs/02-update-models.md)
+- [Working with Blocks](./docs/03-blocks.md)
+
+## License
+
+This project is licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for more information.
